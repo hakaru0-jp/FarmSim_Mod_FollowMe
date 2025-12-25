@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+<!--
+    See comment in modDesc.XML about how to make your own local translation file, that must be placed in specific folder under [..]/modSettings/
+-->
+    <texts>
+        <!-- Input Controls -->
+        <text name="input_FOLLOW_INITIATE"             text="開始 &amp; 選択" />
+        <text name="input_FOLLOW_DISTANCE_1"           text="距離を変更 +" />
+        <text name="input_FOLLOW_DISTANCE_2"           text="距離を変更 -" />
+        <text name="input_FOLLOW_SIDE_OFFSET_1"        text="横距離の変更 +" />
+        <text name="input_FOLLOW_SIDE_OFFSET_2"        text="横距離の変更 -" />
+        <text name="input_FOLLOW_PAUSE_RESUME"         text="一時停止/再開" />
+        <text name="input_FOLLOW_TOOLACTION"           text="満杯時のアクション" />
+
+        <text name="input_FOLLOW_MARKER_TOGGLE_OFFSET" text="スイッチ側オフセットマーカー" />
+
+        <text name="input_FOLLOW_CHASER_CHOOSE"        text="フォロワーは他を選択" />
+        <text name="input_FOLLOW_CHASER_DISTANCE_1"    text="フォロワーの変更距離 +" />
+        <text name="input_FOLLOW_CHASER_DISTANCE_2"    text="フォロワーの変更距離 -" />
+        <text name="input_FOLLOW_CHASER_SIDE_OFFSET_1" text="フォロワーの横距離の変更 +" />
+        <text name="input_FOLLOW_CHASER_SIDE_OFFSET_2" text="フォロワーの横距離の変更 -" />
+        <text name="input_FOLLOW_CHASER_PAUSE_RESUME"  text="フォロワーの一時停止/再開" />
+        <text name="input_FOLLOW_CHASER_TOOLACTION"    text="フォロワー、満員時のアクション" />
+
+        <!-- F1-Menu Actions -->
+        <text name="FOLLOW_INITIATE"                   text="フォロー 開始" />
+        <text name="FOLLOW_CHOOSEOTHER"                text="フォロー 他を選択" />
+        <text name="FOLLOW_SIDEOFFSET"                 text="フォロー 横距離" />
+        <text name="FOLLOW_DISTANCE"                   text="フォロー 距離" />
+        <text name="FOLLOW_PAUSE"                      text="フォロー 一時停止" />
+        <text name="FOLLOW_RESUME"                     text="フォロー 再開" />
+
+        <text name="FOLLOW_CHASER_CHOOSEOTHER"         text="フォロワー 他を選択" />
+        <text name="FOLLOW_CHASER_SIDEOFFSET"          text="フォロワー 横距離" />
+        <text name="FOLLOW_CHASER_DISTANCE"            text="フォロワー 距離" />
+        <text name="FOLLOW_CHASER_PAUSE"               text="フォロワー 一時停止" />
+        <text name="FOLLOW_CHASER_RESUME"              text="フォロワー 再開" />
+
+        <text name="FOLLOW_MARKER_OFFSET_NORMAL"       text="フォロワー 横距離: ノーマル" />
+        <text name="FOLLOW_MARKER_OFFSET_DISABLED"     text="フォロー 横距離: オフ" />
+        <text name="FOLLOW_MARKER_OFFSET_REVERSED"     text="フォロー 横距離: 反対" />
+
+        <text name="FOLLOW_TOOLACTION"                      text="Follow, When full: " />
+        <text name="FOLLOW_CHASER_TOOLACTION"               text="Follower, When full: " />
+        <text name="FOLLOW_TOOLACTION_WHENFULL"             text="When full: " />
+
+        <!-- F1-Menu help extension -->
+        <text name="FOLLOW_SELF_FOLLOWING"     text="フォロー中: " />
+        <text name="FOLLOW_SELF_DISTANCE"      text="距離: " />
+        <text name="FOLLOW_SELF_SIDEOFFSET"    text="横距離: " />
+        <text name="FOLLOW_SELF_WHENFULL"      text="満タン時: " />
+
+        <text name="FOLLOW_OTHER_SELECTED"     text="フォロワー選択: " />
+        <text name="FOLLOW_OTHER_STATE"        text="状態: " />
+        <text name="FOLLOW_OTHER_DISTANCE"     text="距離: " />
+        <text name="FOLLOW_OTHER_SIDEOFFSET"   text="横距離: " />
+        <text name="FOLLOW_OTHER_WHENFULL"     text="満タン: " />
+
+        <!-- Screen HUD -->
+        <text name="FOLLOW_LEADER_SELECTED"            text="フォロー:" />
+        <text name="FOLLOW_WAITINGCOLLISION"           text="ニアミスを検知したため待機中" />
+        <text name="FOLLOW_DISTANCE_OFFSET"            text="距離: %.0f, 横距離: %.1f" />
+        <text name="FOLLOW_WAITING"                    text="一時停止/再開" />
+
+        <!-- Other -->
+        <text name="FOLLOW_AIERROR_CHASER_STOPPED"          text="フォロワーが停止しました" />
+        <text name="FOLLOW_TOOLACTION_WHENFULL_STOP"        text="停止" />
+        <text name="FOLLOW_TOOLACTION_WHENFULL_CONTINUE"    text="継続" />
+        <text name="FOLLOW_TOOLACTION_WHENFULL_UNLOAD"      text="降ろす" />
+    </texts>
+</l10n>
