@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+<!--
+    See comment in modDesc.XML about how to make your own local translation file, that must be placed in specific folder under [..]/modSettings/
+-->
+    <texts>
+        <!-- Input Controls -->
+        <text name="input_FOLLOW_INITIATE"             text="開始 &amp; 選択" />
+        <text name="input_FOLLOW_DISTANCE_1"           text="距離を変更 +" />
+        <text name="input_FOLLOW_DISTANCE_2"           text="距離を変更 -" />
+        <text name="input_FOLLOW_SIDE_OFFSET_1"        text="横オフセットを変更 +" />
+        <text name="input_FOLLOW_SIDE_OFFSET_2"        text="横オフセットを変更 -" />
+        <text name="input_FOLLOW_PAUSE_RESUME"         text="一時停止/再開" />
+        <text name="input_FOLLOW_TOOLACTION"           text="満載時のアクション" />
+
+        <text name="input_FOLLOW_MARKER_TOGGLE_OFFSET" text="横オフセット切替用マーカー" />
+
+        <text name="input_FOLLOW_CHASER_CHOOSE"        text="追従機: 他を選択" />
+        <text name="input_FOLLOW_CHASER_DISTANCE_1"    text="追従機: 距離を変更 +" />
+        <text name="input_FOLLOW_CHASER_DISTANCE_2"    text="追従機: 距離を変更 -" />
+        <text name="input_FOLLOW_CHASER_SIDE_OFFSET_1" text="追従機: 横オフセットを変更 +" />
+        <text name="input_FOLLOW_CHASER_SIDE_OFFSET_2" text="追従機: 横オフセットを変更 -" />
+        <text name="input_FOLLOW_CHASER_PAUSE_RESUME"  text="追従機: 一時停止/再開" />
+        <text name="input_FOLLOW_CHASER_TOOLACTION"    text="追従機: 満載時のアクション" />
+
+        <!-- F1-Menu Actions -->
+        <text name="FOLLOW_INITIATE"                   text="追従, 開始" />
+        <text name="FOLLOW_CHOOSEOTHER"                text="追従, 他を選択" />
+        <text name="FOLLOW_SIDEOFFSET"                 text="追従, 横オフセット" />
+        <text name="FOLLOW_DISTANCE"                   text="追従, 距離" />
+        <text name="FOLLOW_PAUSE"                      text="追従, 一時停止" />
+        <text name="FOLLOW_RESUME"                     text="追従, 再開" />
+
+        <text name="FOLLOW_CHASER_CHOOSEOTHER"         text="追従機, 他を選択" />
+        <text name="FOLLOW_CHASER_SIDEOFFSET"          text="追従機, 横オフセット" />
+        <text name="FOLLOW_CHASER_DISTANCE"            text="追従機, 距離" />
+        <text name="FOLLOW_CHASER_PAUSE"               text="追従機, 一時停止" />
+        <text name="FOLLOW_CHASER_RESUME"              text="追従機, 再開" />
+
+        <text name="FOLLOW_MARKER_OFFSET_NORMAL"       text="追従機の横オフセット: 通常" />
+        <text name="FOLLOW_MARKER_OFFSET_DISABLED"     text="追従機の横オフセット: オフ" />
+        <text name="FOLLOW_MARKER_OFFSET_REVERSED"     text="追従機の横オフセット: 逆側" />
+
+        <text name="FOLLOW_TOOLACTION"                      text="追従, 満載時: " />
+        <text name="FOLLOW_CHASER_TOOLACTION"               text="追従機, 満載時: " />
+        <text name="FOLLOW_TOOLACTION_WHENFULL"             text="満載時: " />
+
+        <!-- F1-Menu help extension -->
+        <text name="FOLLOW_SELF_FOLLOWING"     text="追従中: " />
+        <text name="FOLLOW_SELF_DISTANCE"      text="距離: " />
+        <text name="FOLLOW_SELF_SIDEOFFSET"    text="横オフセット: " />
+        <text name="FOLLOW_SELF_WHENFULL"      text="満載時: " />
+
+        <text name="FOLLOW_OTHER_SELECTED"     text="選択中の追従機: " />
+        <text name="FOLLOW_OTHER_STATE"        text="状態: " />
+        <text name="FOLLOW_OTHER_DISTANCE"     text="距離: " />
+        <text name="FOLLOW_OTHER_SIDEOFFSET"   text="横オフセット: " />
+        <text name="FOLLOW_OTHER_WHENFULL"     text="満載時: " />
+
+        <!-- Screen HUD -->
+        <text name="FOLLOW_LEADER_SELECTED"            text="追従:" />
+        <text name="FOLLOW_WAITINGCOLLISION"           text="接近衝突を検知したため待機中" />
+        <text name="FOLLOW_DISTANCE_OFFSET"            text="距離: %.0f, オフセット: %.1f" />
+        <text name="FOLLOW_WAITING"                    text="待機中 / 一時停止中" />
+
+        <!-- Other -->
+        <text name="FOLLOW_AIERROR_CHASER_STOPPED"          text="追従機が停止しました" />
+        <text name="FOLLOW_TOOLACTION_WHENFULL_STOP"        text="停止" />
+        <text name="FOLLOW_TOOLACTION_WHENFULL_CONTINUE"    text="継続" />
+        <text name="FOLLOW_TOOLACTION_WHENFULL_UNLOAD"      text="排出" />
+    </texts>
+</l10n>
